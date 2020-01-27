@@ -15,7 +15,6 @@ public class ButtonListener : MonoBehaviour
     void Start()
     {
         GetComponent<ButtonController>().InteractableStateChanged.AddListener(InitiateEvent);
-
     }
 
     void InitiateEvent(InteractableStateArgs state){
